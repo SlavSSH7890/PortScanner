@@ -6,9 +6,9 @@ import socket
 import sys
 
 
-target_host = "example.com"
+target_host = "example.com"         #change website domain URL
 target_port = 443                    #change to any legal port number
-ipv4user = socket.inet_aton("exampe.1.1.1")        #---- legal IPv4 address (most likely not affected - in this space of portscanner)
+ipv4user = socket.inet_aton("1.1.1.1")        #---- legal IPv4 address (most likely not affected - in this space of portscanner)
 
 #create the stream or TCP connection of anykind
 client= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
